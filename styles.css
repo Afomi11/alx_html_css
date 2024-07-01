@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    overflow-y: auto;
+}
+header, footer {
+    background: #909d3a;
+    padding: 20px;
+    text-align: center;
+}
+.content {
+    flex: 1;
+    display: flex;
+}
+article {
+    flex: 2;
+    padding: 20px;
+    overflow-y: auto;
+    background: #969894;
+
+}
+aside {
+    flex: 1;
+    padding: 20px;
+    background: #22958b;
+    overflow-y: auto;
+}
+header div {
+    position: absolute;
+    left: 20px; /* Adjust as needed to align with padding */
+    display: flex;
+    align-items: center; /* Align logo vertically */
+}
+header h1 {
+    margin: 0 auto;
+   
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    aside {
+        order: -1;
+    }
+}
+@media (max-width: 480px) {
+    header, footer {
+        padding: 10px;
+    }
+    article, aside {
+        padding: 10px;
+    }
+    article, aside {
+        flex: none;
+        width: 100%;
+    }
+}
