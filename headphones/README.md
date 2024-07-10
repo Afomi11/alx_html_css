@@ -4,8 +4,7 @@ This project is a responsive website showcasing different headphone models. It i
 
 ## Table of Contents
 
-- [Demo](#demo)
-- [Screenshots](#screenshots)
+
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Installation](#installation)
@@ -13,14 +12,8 @@ This project is a responsive website showcasing different headphone models. It i
 - [Contributing](#contributing)
 
 
-## Demo
 
-View the live demo [here](https://example.com).
 
-## Screenshots
-
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
 
 ## Technologies Used
 
@@ -37,5 +30,6 @@ View the live demo [here](https://example.com).
 ## Installation
 
 1. Clone the repository:
-   ```bash
+   
+bash
    git clone https://github.com/Afomi11/headphones.git
