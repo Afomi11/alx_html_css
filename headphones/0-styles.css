@@ -1,0 +1,143 @@
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(image/headphones_hero_1.jpg);
+}
+
+/* Container for header and hero sections */
+.container {
+    max-width: 1200px; /* Example max width */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 20px; /* Example padding */
+    box-sizing: border-box; /* Include padding in width */
+    position: relative; /* Ensure relative positioning for absolute children */
+}
+
+/* Header styles */
+header {
+    background-color: transparent; /* Assuming header is transparent */
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    z-index: 1; /* Ensure header is above other elements */
+}
+
+/* Logo styles */
+.logo {
+    position: absolute; /* Position the logo absolutely */
+    top: -10px; /* Adjust the top position as needed */
+    left: 90px; /* Adjust the left position as needed */
+    z-index: 2; /* Ensure logo is above other elements */
+}
+
+/* Navigation styles */
+nav {
+    position: absolute; /* Position the navigation absolutely */
+    top: 20px; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    z-index: 2; /* Ensure navigation is above other elements */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right; /* Align text to the right within nav */
+}
+
+nav ul li {
+    display: inline-block; /* Display navigation items inline */
+    margin-left: 20px; /* Adjust spacing between nav items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Gray text color */
+    font-weight: bold;
+    font-size: 1.1rem; /* Example font size */
+    display: block; /* Ensure each link takes full width of li */
+    padding: 10px; /* Example padding for links */
+}
+
+/* Hero section styles */
+/* Hero section styles */
+.hero {
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Example height for full viewport */
+}
+
+
+    h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 300px; 
+    }
+    
+
+ p {
+    font-size: 1.2rem;
+    margin-top: -20px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.additional-text {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.6;
+    text-align: center; 
+    margin-top: 200px;
+    line-height: 1.6;
+    text-decoration: solid; 
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #FF6565; 
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    text-align: center; 
+    line-height: 1; 
+    transition: background-color 0.3s ease;
+    position: absolute; 
+    top: 80%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+.cta-button:hover {
+    background-color: #cc0000; 
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px; 
+    }
+
+    .logo {
+        left: 10px; 
+    }
+
+    nav {
+        top: 10px; 
+        right: 10px; 
+    }
+
+    .cta-button {
+        font-size: 1rem; 
+        padding: 12px 24px; 
+    }
+}
+

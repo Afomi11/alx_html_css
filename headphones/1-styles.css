@@ -1,0 +1,79 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    color: #FF6565; 
+}
+
+.cta-button:hover {
+    opacity: 0.9; 
+}
+
+.what-we-do {
+    padding: 2rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.what-we-do h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.what-we-do p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.lorem-ipsum-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 1rem; 
+}
+
+.lorem-ipsum {
+    flex: 1;
+    min-width: 200px; 
+    text-align: center;
+}
+
+.lorem-ipsum img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+
+@media (max-width: 480px) {
+    .cta-button {
+        padding: 12px 24px; 
+        font-size: 1rem; 
+    }
+}
