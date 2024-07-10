@@ -38,4 +38,4 @@ View the live demo [here](https://example.com).
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/headphones.git
+   git clone https://github.com/Afomi11/headphones.git
